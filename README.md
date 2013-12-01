@@ -1,3 +1,10 @@
+WARNING
+=======
+
+This repository/lib is unlikely to receive any issues / bugfixes. The ducktrap idea had grown into [morpher](https://github.com/mbj/morpher).
+
+With the first release of morpher, ducktrap will be unmaintained.
+
 ducktrap
 ========
 
