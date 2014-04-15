@@ -90,3 +90,21 @@ EmptyLinesAroundBody:
 # I like my style more
 AccessModifierIndentation:
   Enabled: false
+
+# Prefer String#% over Kernel#sprintf
+FormatString:
+  Enabled: false
+
+
+# Use square brackets for literal Array objects
+PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%':  ()
+    '%i': '[]'
+    '%q': ()
+    '%Q': ()
+    '%r': '{}'
+    '%s': ()
+    '%w': '[]'
+    '%W': '[]'
+    '%x': ()

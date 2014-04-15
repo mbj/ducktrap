@@ -5,10 +5,10 @@ Devtools.init_spec_helper
 module StripHelper
   def strip(string)
     lines = string.lines
-    line = lines.first
-    match = /\A[ ]*/.match(line)
+    first_line = lines.first
+    match = /\A[ ]*/.match(first_line)
     length = match[0].length
-    source = lines.map do |line|
+    lines.map do |line|
       line[(length..-1)]
     end.join
   end
